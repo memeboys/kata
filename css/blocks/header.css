@@ -4,6 +4,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 42px 32px 0px 1px;
+    font-family: "TT Lakes", sans-serif;
+    font-weight: 700;
 }
 .header__title {
     font-size: 28px;
@@ -46,21 +48,21 @@
     align-items: center;
     border: 0px;
     font-size: 16px;
-    font-family: TT Lakes;
     letter-spacing: -0.2px;
     font-weight: 500;
     margin-right: 32px;
     background: none;
+    font-family: "TT Lakes", sans-serif;
 }
 .header__second-button {
     display: flex;
     align-items: center;
     border: 0px;
     font-size: 16px;
-    font-family: TT Lakes;
     letter-spacing: -0.2px;
     font-weight: 500;
     background: none;
+    font-family: "TT Lakes", sans-serif;
 }
 .header__first-img {
     padding-left: 8px;
@@ -68,3 +70,4 @@
 .header__second-img {
     padding-left: 8px;
 }
+ 
