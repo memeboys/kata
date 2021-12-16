@@ -1,0 +1,81 @@
+.possibilities {
+    background: #F8F8F8;
+}
+.possibilities__description {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-left: 34px;
+    padding-top: 20px;
+    padding-right: 28px;
+}
+nav {
+}
+nav::after {
+}
+.possibilities__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 46px;
+    padding-right: 37px;
+    padding-top: 8px;;
+}
+.possibilities__nav li {
+    text-decoration: none;
+    color: #7E7E82;
+    white-space: nowrap;
+    list-style: none;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+}
+li a {
+    text-decoration: none;
+    color: #7E7E82;
+    white-space: nowrap;
+
+}
+.possibilities__nav li:hover {
+    border: 1px solid #B8FFEC;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: all 500ms ease
+}
+.possibilities__first-col.first-col {
+    width: 490px;
+}
+.possibilities__img {
+    flex-grow: 1;
+    padding-left: 36px;
+    padding-bottom: 49px;
+}
+.possibilities__nav--active {
+}
+.possibilities__under--hidden {
+    margin: 0;
+}
+.possibilities__first-p {
+    padding-bottom: 20px;
+}
+.possibilities__second-p--hidden {
+    padding-bottom: 20px;
+}
+.possibilities__button {
+    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    font-size: 16px;
+    font-family: TT Lakes;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    background: none;
+}
+.possibilities__next-img {
+    padding-left: 8px;
+}
+.possibilities__next-span {
+    padding-left: 16px;
+}
