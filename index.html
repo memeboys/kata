@@ -11,58 +11,88 @@
     <title>CPS</title>
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__title">Услуги и сервисы</h1>
-        <div class="header__menu-left">
-            <button class="header__burger">
-                <img src="./images/icons/burger.svg" alt="бургер-меню">
-            </button>
-            <img src="./images/icons/Group.svg" alt="Логотип компании" class="header__logo">
-        </div>
-        <div class="header__menu--hidden">
-            <button class="header__call" type="button">
-                 <img src="" alt="Обратный звонок">               
-            </button>
-            <button class="header__chat" type="button">
-                <img src="" alt="Чат">
-            </button>
-            <button class="header__profile" type="button">
-                <img src="" alt="Личный кабинет">
-            </button>
-        </div>
-        <div class="header__menu-right">
-            <button class="header__first-button">Оставить заявку
-                <img src="./images/icons/repair.svg" alt="Оставить заявку" class="header__first-img">
-            </button>
-            <button class="header__second-button">Статус ремонта
-                <img src="./images/icons/checkstatus.svg" alt="Статус ремонта" class="header__second-img">
-            </button>
+    <header class="header header_back">
+        <div class="container">
+            <div class="header__buttons header__buttons_format">
+                <h1 class="header__title">
+                    Услуги и сервисы
+                </h1>
+                <div class="header__menu-left">
+                    <button class="header__burger btn" type="button">
+                        <img src="./images/icons/ic/burger.svg" alt="бургер меню">
+                    </button>
+                    <div class="header__logo">
+                        <a href="#"><img src="./images/icons/Group.svg" alt="логотип"></a>
+                    </div>
+                </div>
+                <div class="header__menu-right">
+                    <div class="header__menu_hidden">
+                        <button class="header__tel btn" type="button">
+                            <img src="./images/icons/ic/call.svg" alt="Оставить телефон">
+                        </button>
+                        <button class="header__mess btn" type="button">
+                            <img src="./images/icons/ic/chat.svg" alt="Оставить сообщение">
+                        </button>
+                        <button class="header__kab btn" type="button">
+                            <img src="./images/icons/ic/profile.svg" alt="Личный кабинет">
+                        </button>
+                    </div>
+                    <div class="header__menu-feed">
+                        <span class="header__text_hidden">
+                            Оставить заявку
+                        </span>
+                        <button class="header__check btn" type="button">
+                            <img src="./images/icons/ic/repair.svg" alt="Обратная связь">
+                        </button>
+                        <span class="header__text_hidden">
+                            Статус ремонта
+                        </span>
+                        <button class="header__repairs btn" type="button">
+                            <img src="./images/icons/ic/checkstatus.svg" alt="Статус заявки">
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-<main>
-    <section class="possibilities">
-        <nav>
-            <ul class="possibilities__nav">
-                <li class="possibilities__nav--active"><a href="#">Ремонтируемые бренды</a></li>
-                <li><a href="#">Ремонтируемые устройства</a></li>
-                <li><a href="#">Цена на услугу</a></li>
-                <li><a href="#">Адреса сервисных центров</a></li>
-                <li><a href="#">Специальные цены</a></li>
-                <li class="possibilities__under--hidden"><a href="#">Отзывы</a></li>
-            </ul>
-        </nav>
-        <div class="possibilities__description">
-            <div class="possibilities__first-col first-col">
-                <p class="possibilities__first-p">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                <p class="possibilities__second-p--hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                <button class="possibilities__button">
-                    <img src="./images/icons/icon.svg" alt="Читать далее" class="possibilities__next-img">
-                    <span class="possibilities__next-span">Читать далее</span>
-                </button> 
+    <main>
+        <section class="possibilities">
+            <div class="container">
+                <h1 class="possibilities__title">
+                    Услуги и сервисы
+                </h1>
+                <nav>
+                    <ul class="possibilities__menu">
+                        <li><a href="#">Ремонтируемые устройства</a></li>
+                        <li><a href="#">Дополнительные услуги</a></li>
+                        <li><a href="#">Цены на услуги</a></li>
+                        <li><a href="#">Адреса сервисных центров</a></li>
+                        <li><a href="#">Специальные цены</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </nav>
+                <div class="possibilities__description">
+                    <div class="possibilities__paragraph">
+                        <p class="possibilities__text">Мы являемся авторизованным сервисным центром по ремонту техники
+                            Dell.
+                            Только у нас вы
+                            можете
+                            отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                        <p class="possibilities__text_hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает
+                            большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                            рекомендациям
+                            и, в свою очередь, советуют нас родным и близким.</p>
+                        <button class="possibilities__button">
+                            <img src="./images/icons/ic/expand.svg" alt="Читать далее">
+                            <p>Читать далее</p>
+                        </button>
+                    </div>
+                    <div class="possibilities__img">
+                        <img src="./images/img_footer.jpg" alt="Логотип">
+                    </div>
+                </div>
             </div>
-            <img src="./images/img_footer.jpg" alt="Логотип компании" class="possibilities__img img-footerr">
-        </div>
-    </section>
-</main>
+        </section>
+    </main>
 </body>
 </html>
