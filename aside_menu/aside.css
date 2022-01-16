@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(27, 28, 33, 1);
+    font-weight: 500;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+a {
+    text-decoration: none;
+    color: #1B1C21;
+}
+.aside-menu {
+    
+}
+.container {
+    max-width: 320px;
+    padding: 18px 24px 32px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header__menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.header__button_close {
+}
+
+.header__logo {
+    border: none;
+    background: none;
+    margin-left: 16px;
+}
+
+.header__menu-right {
+}
+
+.header__search {
+}
+
+.possibilities__menu {
+    position: relative;
+    margin-bottom: 268px;
+}
+.possibilities__menu li {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.possibilities__menu li:hover::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    border-left: 5px solid #41F6D7;
+    border-radius: 4px;
+    height: 28px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transition: all 4s ease;
+}
+.possibilities__menu li a:hover {
+    color: #7E7E82;
+    transition: all 1s ease;
+}
+.possibilities__menu li:last-child {
+    margin-bottom: 0px;
+}
+.active {
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.footer__telephone {
+    margin-right: 16px;
+}
+
+.footer__chat {
+    margin-right: 16px;
+}
+
+.footer__profile {
+}
+
+.footer__mail {
+    margin-bottom: 16px;
+}
+.footer__tel {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.footer__language {
+    display: flex;
+    align-items: center;
+}
+.footer__language_ru {
+    margin-right: 7px;
+}
+.footer__language_en {
+    margin-right: 7px;
+}
+.footer__language_ch {
+}
+.footer__button {
+    border: none;
+    background: none;
+}
+.footer__button:hover {
+    color: #7E7E82;
+}
+.button__red {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FF3E79;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
